@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    color: #282828;
+    background-color: #fff; 
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* Container =============================*/
+
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* Intro =============================*/
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 813px;
+    background: #ceced8 url("images/01 intro/header_bg.png") center no-repeat;
+    background-size: cover;
+}
+
+.intro__inner {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__title {
+    font-family: Exo;
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    color: #282828;
+    margin-bottom: 40px;
+}
+
+.play__button {
+    display: block;
+    margin: 0 auto;
+    font-size: 60px;
+    opacity: 0.35;
+    color: #323969;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 50px;
+    background-color: #ff6d6d;
+    border-radius: 3px;
+    border: none;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.intro__comment {
+    opacity: 0.6;
+    font-family: Exo;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #282828;
+}
+
+
+/* New Design =============================*/
+
+
+.new__design {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+}
+
+.new__design__inner {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    max-height: 725px;
+    margin: 180px 0 160px;
+}
+
+.new__design__image {
+    position: absolute;
+    right: 0;
+    top: -180px;
+    z-index: 3;
+}
+
+.new__design__inner_suptitle {
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #ff6d6d;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.new__design__inner_title {
+    font-family: Exo;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #282828;
+    padding-bottom: 40px;
+}
+
+.new__design__inner_text {
+    opacity: 0.65;
+    font-family: Exo;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #282828;
+}
+
+
+/* New Features =============================*/
+
+
+.new__features {
+    background: #ceced8 url("images/03 new_features/features_bg.png") center no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 130px 0;
+    z-index: 3;
+}
+
+.new__features__inner {
+    text-align: center;
+}
+
+.new__features__inner_suptitle {
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #ff6d6d;
+}
+
+.new__features__inner_title {
+    font-family: Exo;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #282828;
+    margin-bottom: 85px;
+}
+
+.new__features__inner_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.new__features__inner_list_item {
+    width: 31.33333%;
+    text-align: center;
+}
+
+.inner_list_title {
+    font-family: Exo;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #282828;
+    margin: 20px 0 10px;
+}
+
+.inner_list_text {
+    opacity: 0.65;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #282828;
+}
+
+
+/* Laptop Design =============================*/
+
+.laptop__design {
+    padding: 100px 0;
+    position: relative
+}
+
+.background__image {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    z-index: 1;
+}
+
+.laptop__design__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.laptop__design__inner_item {
+    width: 50%;
+    margin: 0 -60px;
+    z-index: 2;
+}
+
+.laptop__design__suptitle {
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #ff6d6d;
+}
+
+.laptop__design__title {
+    font-family: Exo;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #282828;
+    margin: 5px 0 20px;
+}
+
+.laptop__design__text {
+    opacity: 0.65;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #282828;
+}
