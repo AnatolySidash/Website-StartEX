@@ -1,9 +1,10 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Exo', sans-serif;
     font-size: 16px;
     color: #282828;
     background-color: #fff; 
+    max-width: 1440px;
 }
 
 *,
@@ -105,15 +106,13 @@ p {
 
 
 .new__design {
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    height: auto;
+    background: url("images/02 new_design/new_design_bg.png") top right no-repeat;
+    background-size: contain;
 }
 
 .new__design__inner {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 50%;
     max-width: 600px;
     max-height: 725px;
     margin: 180px 0 160px;
@@ -164,10 +163,9 @@ p {
     background-size: cover;
     height: auto;
     width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 130px 0;
-    z-index: 3;
+    position: relative;
+    z-index: 2;
 }
 
 .new__features__inner {
@@ -224,15 +222,8 @@ p {
 /* Laptop Design =============================*/
 
 .laptop__design {
-    padding: 100px 0;
-    position: relative
-}
-
-.background__image {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    z-index: 1;
+    background: url("images/04 laptop_design/triangle.png") left no-repeat;
+    height: 550px;
 }
 
 .laptop__design__inner {
@@ -240,6 +231,7 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    padding: 90px 0;
 }
 
 .laptop__design__inner_item {
@@ -269,6 +261,125 @@ p {
     opacity: 0.65;
     font-family: Exo;
     font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #282828;
+}
+
+
+/* Team =============================*/
+
+
+.team {
+    background: #000 url("images/05 team/team_bg.png") center no-repeat;
+    background-size: cover;
+    height: 648px;
+    width: 100%;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.team__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team__inner__item {
+    text-align: center;
+    width: 30.33333%;
+}
+
+.team__inner__item_photo {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: inline-block;
+    border: 2px solid #1d1e24;
+    align-items: center;
+}
+
+.team__inner__item_name {
+    font-family: Exo;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    margin: 20px 0 5px;
+}
+
+.team__inner__item_prof {
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff6d6d;
+    margin-bottom: 25px;
+}
+
+.team__inner__item_text {
+    opacity: 0.65;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+
+/* Partner Logos =============================*/
+
+.partner__logo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.partner__logo__item {
+    opacity: 0.35;
+}
+
+
+/* Window =============================*/
+
+.window {
+    background: url("images/06 window/mist.jpg") bottom no-repeat, url("images/06 window/window_1.png") bottom no-repeat, #f6f5f3;
+    width: 100%;
+    height: 754px; 
+}
+
+.window__inner {
+    text-align: center;
+    padding: 100px 0;
+    width: 675px;
+    margin: 0 auto;
+}
+
+.window__suptitle {
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #ff6d6d;
+}
+
+.window__title {
+    font-family: Exo;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #282828;
+    padding: 5px 0 30px;
+}
+
+.window__text {
+    opacity: 0.65;
+    font-family: Exo;
+    font-size: 16px;
+    line-height: 1.7;
     font-weight: 500;
     letter-spacing: 0.04em;
     color: #282828;
